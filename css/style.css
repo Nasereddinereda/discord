@@ -1,0 +1,76 @@
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.showcase {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background: #f2f2f2;
+  z-index: 0;
+}
+
+.sec-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.login {
+  padding: 40px;
+  background: #36393f;
+  border-radius: 5px;
+  position: absolute;
+  top: 20vh;
+  display: flex;
+  flex-direction: column;
+  color: #8e9297;
+  margin-bottom: 25vh;
+}
+
+.login input {
+  outline: none;
+  border: none;
+  width: 400px;
+  height: 40px;
+  margin-bottom: 25px;
+  border-radius: 3px;
+}
+.login input[type="email"],
+input[type="password"] {
+  background: #303339;
+  border: 1px black solid;
+  font-size: 24px;
+  padding: 0 5px 0 5px;
+}
+
+.login input[type="submit"] {
+  width: 411px;
+  font-size: 24px;
+  border: 1px #7289da solid;
+  background: #7289da;
+  color: #f2f2f2;
+  cursor: pointer;
+}
+
+.login label {
+  margin-bottom: 5px;
+}
+.login h1 {
+  color: #f2f2f2;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+
+.login p {
+  color: #565a60;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
